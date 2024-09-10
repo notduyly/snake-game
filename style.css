@@ -7,8 +7,7 @@ body {
   font-family: 'VT323', monospace;
 }
 
-body,
-.snake {
+body {
   background-color: #aaaaaa;
 }
 
@@ -65,11 +64,12 @@ em{
 
 .snake {
   border:#046961 1px dotted;
+  background-color: #046961;
 }
 
 .food {
   background-color: red;
-  border: white 5px solid;
+  border: #865242 3px solid;
 }
 
 #logo {
